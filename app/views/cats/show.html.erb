@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Question:</strong>
+  <%= @cat.question %>
+</p>
+
+<p>
+  <strong>Answer:</strong>
+  <%= @cat.answer %>
+</p>
+
+<%= link_to 'Edit', edit_cat_path(@cat) %> |
+<%= link_to 'Back', cats_path %>

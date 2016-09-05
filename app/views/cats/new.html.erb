@@ -1,0 +1,23 @@
+<body class="center">
+
+<title>LuckyCat Fortune</title>
+
+<!-- <%= render 'form' %> -->
+
+<h1> Get your fortune told by Luckycat </h1>
+
+  
+  <%= image_tag("logo.jpg") %>
+ 
+
+  <h1> What's your question? </h1>
+
+  <form>
+
+<input class="question" type="text", placeholder='Question pls!' >
+
+</form>
+
+<%= link_to 'Get Lucky', cats_path,:class => "btn" %>
+
+</body>

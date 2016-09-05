@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<body class="center">
+
+    <h1>Your Fortune</h1>
+   <h2> " <%= magic8 %> "</h2>
+
+  <h1>Your Luckycat</h1>
+
+
+<%= image_tag("cat#{rand(7)}.jpg") %>
+
+  <h1>  </h1>
+<%= link_to 'Get another lucky fortune!', new_cat_path, :class => "btn"  %>
+
+</body>
+
